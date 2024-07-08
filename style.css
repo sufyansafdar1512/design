@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    display: flex;
+}
+
+div .right {
+    background-color: rgb(214, 214, 214);
+    width: 55%;
+    padding-left: 20px;
+}
+
+.container div h1 {
+    padding-top: 170px;
+    font-size: 35px;
+
+}
+
+.container div ul {
+    padding-top: 30px;
+}
+
+div ul li {
+    list-style: none;
+
+}
+
+.btn {
+    color: white;
+    margin-top: 30px;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 9px;
+    background-color: rgb(13, 13, 96);
+
+}
+
+div.container-2 {
+    background-color: rgb(13, 13, 96);
+}
+
+.container-2 p {
+    padding-top: 10px;
+}
+
+div.container-3 {
+    background-image: url(./img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #fff;
+    height: 560px;
+}
+
+h2.heading-2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+}
+
+.box-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    background-color: white;
+    width: 50px;
+    height: 170px;
+    padding: 10px;
+    flex-basis: 400px;
+    border-radius: 20px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+h3 p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.inputbox {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 600px;
+    height: 30px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+button {
+    color: white;
+    margin-left: 8px;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    background-color: rgb(12, 12, 112);
+}
+
+.threebox {
+    padding-top: 400px;
+    justify-content: center;
+    font-size: 14px;
+    display: flex;
+    gap: 15px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 260px;
+    height: 130px;
+    background-color: rgb(13, 13, 96);
+    text-align: left;
+    padding-left: 15px;
+}
+div.phone{
+    padding-top: 35px;
+}
+div.location{
+    padding-top: 20px;
+}
+div.hours{
+    padding-top: 30px;
+}
+    /*---- Media quries  -----*/
+
+@media only screen and (max-width: 600px) {
+    .inputbox {
+        top: 55%;
+        width: 300px;
+        height: 80px;
+        display: inline;
+    }
+
+    #inputname {
+        margin-top: 10px;
+        margin-right: 7px;
+    }
+
+    button {
+        margin-top: 10px;
+
+    }
+
+}
